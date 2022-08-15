@@ -16,7 +16,9 @@
        .toList();
     }
 
-       CarouselOptions(
+       CarouselSlider(
+        items: imageSliders,
+        options: CarouselOptions(
             enlargeCenterPage: true,
             aspectRatio: 18 / 8,
             autoPlay: true,
